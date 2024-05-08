@@ -32,10 +32,16 @@ The project is deployed on Vercel, a cloud platform for static sites and serverl
 <br>
 
 ![Screenshot (438)](https://github.com/Vindyani1999/FriendZone/assets/145743416/629916b1-f955-48d2-bb1e-00812390ed49)
+
 ![Screenshot (439)](https://github.com/Vindyani1999/FriendZone/assets/145743416/29448506-47dd-4c08-9bc2-d273ed2d4a6d)
-![Screenshot (440)](https://github.com/Vindyani1999/FriendZone/assets/145743416/a12f7173-1ee5-4bdc-b127-abd859e84574)
+
+![Screenshot (440)](https://github.com/Vindyani1999/FriendZone/assets/145743416/a2f639e9-748d-431f-a316-0bea2b0be2f7)
+
+
 ![Screenshot (441)](https://github.com/Vindyani1999/FriendZone/assets/145743416/f565be82-e211-4bb7-b876-e9b7847cb2bd)
+
 ![Screenshot (443)](https://github.com/Vindyani1999/FriendZone/assets/145743416/abad28c7-6f5e-41db-af39-70bb0597170b)
+
 ![Screenshot (442)](https://github.com/Vindyani1999/FriendZone/assets/145743416/e2485d31-0130-4488-8a75-23faf9df43fe)
 
 
