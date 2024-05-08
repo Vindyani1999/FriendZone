@@ -733,6 +733,173 @@ nav {
   display: none;
 }
 
+.left-side {
+  flex-basis: 20%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+  background: var(--bg-color);
+  padding-bottom: 5px;
+}
+
+.right-side {
+  flex-basis: 79%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+}
+
+.market-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 5%;
+}
+
+.notification {
+  text-decoration: none;
+  color: #626262;
+  width: fit-content;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  background: var(--bg-color);
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 12px;
+}
+
+.notification h4 {
+  margin-bottom: 10px; /* Add some space between the title and the content */
+}
+
+.notification .content {
+  display: flex;
+  align-items: center;
+}
+
+.notification img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.notification .text {
+  text-align: left;
+}
+
+.notification .text p {
+  margin: 0;
+  font-weight: 500;
+  color: #626262;
+}
+
+.notification .blue-dot {
+  display: block; /* Make the dot appear on a new line */
+}
+
+.catogories a img {
+  width: 42px;
+  margin: 10px 20px 5px 15px;
+}
+
+.catogories a {
+  display: flex;
+  text-decoration: none;
+  color: #9a9a9a;
+  align-items: center;
+  margin-left: 20px;
+}
+.catogories {
+  display: block;
+}
+
+.left-side h3 {
+  font-size: 22px;
+  color: #626262;
+  margin: 20px 0 10px 20px;
+}
+
+.catogories p {
+  font-size: 16px;
+  margin-left: 20px;
+  color: #777777;
+}
+
+.search-box-market {
+  background: #efefef;
+  width: 230px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #9f70fd;
+}
+
+.search-box-market img {
+  width: 18px;
+}
+
+.search-box-market input {
+  width: 100%;
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  border: 0;
+}
+
+.topic {
+  font-size: 17px;
+  color: #626262;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.title-for-you {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.card {
+  width: 210px;
+  background: var(--bg-color);
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+#price {
+  font-size: 15px;
+  color: #626262;
+}
+
+.card p {
+  font-size: 13px;
+  color: #9a9a9a;
+}
+
+.card small {
+  font-size: 11px;
+  color: #9f70fd;
+}
+.cloth {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /*Media Quary for HomePage*/
 
 @media (max-width: 900px) {

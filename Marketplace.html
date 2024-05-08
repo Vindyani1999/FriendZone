@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendZone - Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="images/FriendZone.png" class="logo"></a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search "/>
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+
+        <!--settings menu -->
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accesibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+        </div>
+
+    </nav>
+
+    <!--Marketplace Page-->
+
+    <div class="market-container">
+        <div class="left-side">
+            <h3>Marketplace</h3>
+            <div class="search-box-market">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search Item "/>
+            </div>
+            <div class="catogories">
+                <p>Categories</p>
+                <a href="#"><img src="images/list.png">All Items</a>
+                <a href="#"><img src="images/car.png">Vehicle</a>
+                <a href="#"><img src="images/apartment.png">Renting Property</a>
+                <a href="#"><img src="images/laundry.png">Clothing/Jewellary</a>
+                <a href="#"><img src="images/skincare.png">Beauty Care Product</a>
+                <a href="#"><img src="images/shopping-basket.png">Grocery Item</a>
+                <a href="#"><img src="images/triangle.png">Stationary Item</a>
+                <a href="#"><img src="images/furniture.png">Furniture</a>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="notification">
+                <h4>New for you</h4>
+                <div class="content">
+                    <img src="images/house.jpg">
+                    <div class="text">
+                        <p>Browse more property to rent listings in your area</p>
+                        <small class="blue-dot">5d</small>
+                    </div>
+                </div>
+            </div>
+            <h3 class="topic">Today's for you</h3>
+            <div class="title-for-you">
+                
+                <div class="Cloth">
+                    <div class="card">
+                        <img src="images/moose.jpg">
+                        <p id="price">LKR 350</p>
+                        <p>Moose T Shirt Original</p>
+                        <small>Gampaha</small>
+                    </div>
+                </div>
+                <div class="Vehicle">
+                    <div class="card">
+                        <img src="images/car-1.jpg">
+                        <p id="price">LKR 320,000,000</p>
+                        <p>Car - Second hand</p>
+                        <small>Ampara</small>
+                    </div>
+                </div>
+                <div class="Stationary">
+                    <div class="card">
+                        <img src="images/a4.jpg">
+                        <p id="price">LKR 1500</p>
+                        <p>A4 Bundle - 1000 Sheets</p>
+                        <small>Hambantota</small>
+                    </div>
+                </div>
+                <div class="Grocery">
+                    <div class="card">
+                        <img src="images/rice.jpg">
+                        <p id="price">LKR 850</p>
+                        <p>Wite Rice 1kg</p>
+                        <small>Moratuwa</small>
+                    </div>
+                </div>
+                <div class="Jewellary">
+                    <div class="card">
+                        <img src="images/jelry.jpg">
+                        <p id="price">LKR 1050</p>
+                        <p>Latest Jewellary</p>
+                        <small>Galle</small>
+                    </div>
+                </div>
+                <div class="Property">
+                    <div class="card">
+                        <img src="images/home-2.jpg">
+                        <p id="price">LKR 150,000,000</p>
+                        <p>New House</p>
+                        <small>Gampaha</small>
+                    </div>
+                </div>
+                <div class="Furniture">
+                    <div class="card">
+                        <img src="images/bed.png">
+                        <p id="price">LKR 35000</p>
+                        <p>Wooden Double Bed</p>
+                        <small>Moratuwa</small>
+                    </div>
+                </div>
+                <div class="Property">
+                    <div class="card">
+                        <img src="images/home.jpg">
+                        <p id="price">LKR 15000</p>
+                        <p>Renting House</p>
+                        <small>Gampaha</small>
+                    </div>
+                </div>
+                <div class="Beauty">
+                    <div class="card">
+                        <img src="images/cerave.jpg">
+                        <p id="price">LKR 3500</p>
+                        <p>Hydrating Clenser</p>
+                        <small>Colombo</small>
+                    </div>
+                </div>
+                <div class="Cloth">
+                    <div class="card">
+                        <img src="images/moose.jpg">
+                        <p id="price">LKR 350</p>
+                        <p>Moose T Shirt Original</p>
+                        <small>Gampaha</small>
+                    </div>
+                </div>
+                <div class="Vehicle">
+                    <div class="card">
+                        <img src="images/car-1.jpg">
+                        <p id="price">LKR 320,000,000</p>
+                        <p>Car - Second hand</p>
+                        <small>Ampara</small>
+                    </div>
+                </div>
+                <div class="Stationary">
+                    <div class="card">
+                        <img src="images/a4.jpg">
+                        <p id="price">LKR 1500</p>
+                        <p>A4 Bundle - 1000 Sheets</p>
+                        <small>Hambantota</small>
+                    </div>
+                </div>
+                <div class="Grocery">
+                    <div class="card">
+                        <img src="images/rice.jpg">
+                        <p id="price">LKR 850</p>
+                        <p>Wite Rice 1kg</p>
+                        <small>Moratuwa</small>
+                    </div>
+                </div>
+                <div class="Jewellary">
+                    <div class="card">
+                        <img src="images/jelry.jpg">
+                        <p id="price">LKR 1050</p>
+                        <p>Latest Jewellary</p>
+                        <small>Galle</small>
+                    </div>
+                </div>
+                <div class="Property">
+                    <div class="card">
+                        <img src="images/home-2.jpg">
+                        <p id="price">LKR 150,000,000</p>
+                        <p>New House</p>
+                        <small>Gampaha</small>
+                    </div>
+                </div>
+                <div class="Furniture">
+                    <div class="card">
+                        <img src="images/bed.png">
+                        <p id="price">LKR 35000</p>
+                        <p>Wooden Double Bed</p>
+                        <small>Moratuwa</small>
+                    </div>
+                </div>
+                <div class="Property">
+                    <div class="card">
+                        <img src="images/home.jpg">
+                        <p id="price">LKR 15000</p>
+                        <p>Renting House</p>
+                        <small>Gampaha</small>
+                    </div>
+                </div>
+                <div class="Beauty">
+                    <div class="card">
+                        <img src="images/cerave.jpg">
+                        <p id="price">LKR 3500</p>
+                        <p>Hydrating Clenser</p>
+                        <small>Colombo</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+       
+    </div>
+    <div class="footer">
+        <p>copyright 2024 - @Friendzone</p>
+    </div>
+
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
