@@ -7,13 +7,13 @@
 
 :root {
   --body-color: #efefef;
-  --nav-color: #9f70fd;
+  --nav-color: #218df1;
   --bg-color: #fff;
 }
 
 .dark-theme {
   --body-color: #0a0a0a;
-  --nav-color: #483470;
+  --nav-color: #254b6f;
   --bg-color: #000;
 }
 
@@ -147,7 +147,7 @@ nav {
 }
 
 .important-links a:last-child {
-  color: #9f70fd;
+  color: #218df1;
 }
 
 .important-links {
@@ -180,7 +180,7 @@ nav {
 
 .sidebar-title a {
   text-decoration: none;
-  color: #9f70fd;
+  color: #218df1;
   font-size: 12px;
 }
 
@@ -208,7 +208,7 @@ nav {
 .event a {
   font-size: 12px;
   text-decoration: none;
-  color: #9f70fd;
+  color: #218df1;
 }
 
 .left-event span {
@@ -216,7 +216,7 @@ nav {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #9f70fd;
+  background: #218df1;
   color: #fff;
   font-size: 10px;
   padding: 4px 0;
@@ -270,7 +270,7 @@ nav {
   border-radius: 50%;
   top: 10px;
   left: 10px;
-  border: 5px solid #9f70fd;
+  border: 5px solid #218df1;
 }
 
 .story p {
@@ -399,7 +399,7 @@ nav {
 }
 
 .post-text a {
-  color: #9f70fd;
+  color: #218df1;
   text-decoration: none;
 }
 
@@ -473,7 +473,7 @@ nav {
 }
 .user-profile a {
   font-size: 12px;
-  color: #9f70fd;
+  color: #218df1;
   text-decoration: none;
 }
 
@@ -584,7 +584,7 @@ nav {
 }
 
 .profile-right button {
-  background: #9f70fd;
+  background: #218df1;
   border: 0;
   outline: 0;
   padding: 5px;
@@ -686,7 +686,7 @@ nav {
 
 .title-box a {
   text-decoration: none;
-  color: #9f70fd;
+  color: #218df1;
   font-size: 14px;
 }
 
@@ -836,7 +836,7 @@ nav {
   padding: 0 15px;
   margin-left: 10px;
   margin-bottom: 15px;
-  border: 2px solid #9f70fd;
+  border: 2px solid #218df1;
 }
 
 .search-box-market img {
@@ -892,7 +892,7 @@ nav {
 
 .card small {
   font-size: 11px;
-  color: #9f70fd;
+  color: #218df1;
 }
 .cloth {
   margin: 0;
@@ -994,7 +994,7 @@ nav {
     margin: 6px 6px 4px;
     font-size: 13px;
     padding-bottom: 4px;
-    border-bottom: 1px solid #9f70fd;
+    border-bottom: 1px solid #218df1;
   }
 }
 
